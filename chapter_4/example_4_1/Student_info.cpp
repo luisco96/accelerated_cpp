@@ -28,9 +28,7 @@ istream& read(istream& is, Student_info& s)
     return is;
 }
 
-
-
-bool compare(const Student_info& x, Student_info& y)
+bool compare(const Student_info& x, const Student_info& y)
 {
     return x.name < y.name;
 }
